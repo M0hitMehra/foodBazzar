@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url("https://previews.123rf.com/images/marinamandarina/marinamandarina1707/marinamandarina170700133/82588499-fast-food-muster-kann-f%C3%BCr-textil-website-hintergrund-buchumschlag-verpackung-verwendet-werden-.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin :0px;
+    padding: 0px;
+
+}
+/* boxes */
+.boxes{
+  
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.boxes div{
+    background-color: purple;
+    height: 400px;
+    width: 400px;
+    border-radius: 22px;
+    color: white;
+    
+    transition: all ;
+     transition-delay :0.1s;
+      transition-duration:1s;
+       transition-property :all;
+       transition-timing-function : ease-in-out;
+    z-index: -8;
+}
+.boxes div:hover{
+    transform: scale(1.2);
+}
+
+#box1{
+    background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2016%2F01%2Ffitness-food-salmon-400x400.jpg") center center no-repeat;
+    z-index: 2;
+}
+#box2{
+    background: url("https://afoodloverskitchen.com/wp-content/uploads/2020/12/baked-gnocchi.jpg");
+    z-index: 2;
+}
+#box3{
+    background: url("https://inemai.com/wp-content/uploads/2021/09/dosa-400x400.jpg");
+    z-index: 2;
+}
+
+.boxes div p{
+    font-size: 22px;
+    transition: all;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    
+}
+.boxes div p:hover{
+    font-size: 80px;
+    color: black;
+    text-decoration: wavy;
+    text-shadow: 7px 7px 8px white, 5px 5px 8px rgb(82, 245, 131);
+    font-weight: bold;
+    z-index: 45;
+    padding-top: 200px;
+}
+
+
+/* review Card */
+.reviewCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/* Details */
+.details{
+
+    
+
+    height: 1700px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details .detailCards{
+
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.detailCards div{
+    height: 350px;
+    width: 40%;
+    /* background-color: black; */
+    margin: 5px;
+}
+.detailCards img{
+    height: 100%;
+    width: 100%;
+}
+.detailCards .detailPara{
+    font-size: 68px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+#detailPara4{
+    padding-top: 100px;
+    font-size: 50px;
+}
